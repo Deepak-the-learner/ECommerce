@@ -47,8 +47,8 @@ dotnet add package Microsoft.AspNetCore.Mvc.Core
    - Configure the **SQL Server connection**:
      ```json
      "ConnectionStrings": {
-       "DefaultConnection": "Server=<your_server_name>;Database=<your_database_name>;Trusted_Connection=True;"
-     }
+    "DefaultConnection": "Server=Your_Server_Name;Database=Your_Database_Name;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
+  }
      ```
 
 ---
